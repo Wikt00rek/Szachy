@@ -74,7 +74,7 @@
         </div>
 
         <footer>
-            <p>Stronę wykonał: <a href="https://ee-informatyk.pl/" target="_blank" style="text-decoration: none;color: unset;">EE-Informatyk.pl</a></p>
+            <p>Stronę wykonał: Wiktor Rompa</p>
         </footer>
     </body>
 </html>
