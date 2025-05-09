@@ -37,7 +37,7 @@
                     <th>Klasa</th>
                 </tr>
                 <?php
-                    // Skrypt #1
+                    
                     $sql = "SELECT pseudonim, tytul, ranking, klasa FROM zawodnicy WHERE ranking > 2787 ORDER BY ranking DESC;";
                     $result = $conn->query($sql);
                     $i = 1;
@@ -59,7 +59,7 @@
                 <input type="submit" value="Losuj nową parę graczy" id="losuj" name="losuj">
             </form>
             <?php
-                // Skrypt #2
+               
                 if (isset($_POST['losuj'])) {
                     $sql = "SELECT pseudonim, klasa FROM zawodnicy ORDER BY RAND() LIMIT 2;";
                     $result = $conn->query($sql);
@@ -74,7 +74,7 @@
         </div>
 
         <footer>
-            <p>Stronę wykonał: Wiktor Rompa</p>
+            <p>Stronę wykonał: Wiktor</p>
         </footer>
     </body>
 </html>
